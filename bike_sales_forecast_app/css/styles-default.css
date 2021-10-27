@@ -1,0 +1,198 @@
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Roboto:300&display=swap');
+
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Montserrat", sans-serif;
+    color: #2c3e50;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2c3e50;
+}
+
+/* NAVBAR */
+.navbar-inverse {
+    background-color: #2c3e50;
+    border-color: #fff;
+}
+
+.navbar-logo {
+    width: 50px;
+    padding-right: 5px;
+}
+
+
+/* SIDEBAR */
+.section.sidebar {
+    background-color: #dddddd;
+}
+
+/* the @media part is when your using the app on a narrow screen like a mobile phone. */
+@media screen and (min-width: 767px) {
+    #dashboard-container {
+        padding-left: 350px !important;
+    }
+
+    .sidebar {
+      width: 350px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .chart-shim {
+        overflow-y: scroll;
+    }
+}
+
+/* PLOTS */
+
+/* Remove white border around plots */
+.chart-wrapper {
+    background: #fff;
+    border: 0;
+}
+/* Adjust Titles, Labels */
+.chart-title {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+}
+
+.shiny-input-container label {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* SWITCH */
+
+/* SUCCESS (ON) */
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-success, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-success {
+    color: #fff;
+    background: #18bc9c;
+    font-family: "Montserrat", sans-serif;
+}
+/* DEFAULT (OFF) */
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default {
+    color: #000;
+    background: #e31a1c;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* VIEW MODE (Light Dark Switch) */
+/* DARK */
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
+    color: #fff;
+    background: #000;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* BUTTONS */
+.btn-default {
+    color: #ffffff;
+    background-color: #2c3e50;
+    border-color: #2c3e50
+}
+
+.btn-default:focus,.btn-default.focus {
+    color: #ffffff;
+    background-color: #233140;
+    border-color: #233140
+}
+
+.btn-default:hover {
+    color: #ffffff;
+    background-color: #233140;
+    border-color: #233140
+}
+
+.btn-default:active,.btn-default.active,.open>.dropdown-toggle.btn-default {
+    color: #ffffff;
+    background-color: #233140;
+    border-color: #233140
+}
+
+.btn-default:active:hover,.btn-default.active:hover,.open>.dropdown-toggle.btn-default:hover,.btn-default:active:focus,.btn-default.active:focus,.open>.dropdown-toggle.btn-default:focus,.btn-default:active.focus,.btn-default.active.focus,.open>.dropdown-toggle.btn-default.focus {
+    color: #ffffff;
+    background-color: #233140;
+    border-color: #233140
+}
+
+.btn-default:active,.btn-default.active,.open>.dropdown-toggle.btn-default {
+    background-image: none
+}
+
+.btn-default.disabled:hover,.btn-default[disabled]:hover,fieldset[disabled] .btn-default:hover,.btn-default.disabled:focus,.btn-default[disabled]:focus,fieldset[disabled] .btn-default:focus,.btn-default.disabled.focus,.btn-default[disabled].focus,fieldset[disabled] .btn-default.focus {
+    background-color: #222222;
+    border-color: #222222
+}
+
+.btn-default .badge {
+    color: #222222;
+    background-color: #ffffff
+}
+
+/* BUTTON PRIMARY */
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #18bc9c;
+    border-color: #18bc9c;
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    color: #ffffff;
+    background-color: #16AB8E;
+    border-color: #16AB8E
+}
+
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #16AB8E;
+    border-color: #16AB8E
+}
+
+.btn-primary:active,.btn-primary.active,.open>.dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #16AB8E;
+    border-color: #16AB8E
+}
+
+.btn-primary:active:hover,.btn-primary.active:hover,.open>.dropdown-toggle.btn-primary:hover,.btn-primary:active:focus,.btn-primary.active:focus,.open>.dropdown-toggle.btn-primary:focus,.btn-primary:active.focus,.btn-primary.active.focus,.open>.dropdown-toggle.btn-primary.focus {
+    color: #ffffff;
+    background-color: #16AB8E;
+    border-color: #16AB8E
+}
+
+.btn-primary:active,.btn-primary.active,.open>.dropdown-toggle.btn-primary {
+    background-image: none
+}
+
+.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled.focus,.btn-primary[disabled].focus,fieldset[disabled] .btn-primary.focus {
+    background-color: #2780e3;
+    border-color: #2780e3
+}
+
+.btn-primary .badge {
+    color: #2780e3;
+    background-color: #ffffff
+}
+
+/* VALUE BOXES */
+
+.bg-danger {
+    background-color: #E31A1C;
+}
+.bg-success {
+    background-color: #18bc9c;
+}
+.bg-warning {
+    background-color: #FF7F00;
+}

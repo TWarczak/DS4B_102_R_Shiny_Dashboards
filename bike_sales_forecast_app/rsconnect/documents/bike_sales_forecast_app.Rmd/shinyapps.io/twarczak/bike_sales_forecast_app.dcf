@@ -1,0 +1,13 @@
+name: bike_sales_forecast_app
+title: bike_sales_forecast_app
+username:
+account: twarczak
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4971160
+bundleId: 5180614
+url: https://twarczak.shinyapps.io/bike_sales_forecast_app/
+when: 1635292174.09979
+lastSyncTime: 1635292174.0998
+asMultiple: FALSE
+asStatic: FALSE
